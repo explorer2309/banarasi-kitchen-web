@@ -1,0 +1,41 @@
+.menuSection {
+  padding: 1rem;
+  color: #fff;
+}
+
+.sectionName {
+  font-size: 1.5rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  border-bottom: #fff 2px dotted;
+  letter-spacing: -0.05rem;
+}
+
+.foodItemList {
+  list-style-type: none;
+  padding: 0;
+  color: #fff;
+  font-size: 1.2rem;
+}
+
+.foodItem {
+  padding: 1rem 0;
+  border-bottom: #fff 1px dotted;
+}
+
+.itemName {
+  font-weight: 500;
+}
+
+.price {
+  float: right;
+  margin-top: -1.5rem;
+  font-size: 1.2rem;
+  font-style: italic;
+}
+
+.desc {
+  opacity: 0.75;
+  display: block;
+  width: 90%;
+}

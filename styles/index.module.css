@@ -19,6 +19,7 @@
 .actionLinks {
   margin-top: 1rem;
 }
+
 .actionLinks a {
   line-height: 25px !important;
   padding: 10px;
@@ -27,6 +28,11 @@
   text-transform: uppercase;
   font-size: 1rem;
   background: #854d27;
+  border-radius: 0.3rem;
+}
+
+.actionLinks a:active {
+  background: #04030f;
 }
 
 .about {

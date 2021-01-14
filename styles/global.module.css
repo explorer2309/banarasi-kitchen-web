@@ -35,6 +35,7 @@
 }
 
 .footer {
+  text-align: center;
   width: 100%;
   padding: 1rem;
   background-color: #04030f;
@@ -42,9 +43,10 @@
 }
 
 .footerHeader {
-  font-size: 1.8rem;
+  font-size: 1.5rem;
   font-weight: 500;
   margin: 0;
+  letter-spacing: -0.05rem;
 }
 
 .footerItems {
@@ -55,4 +57,13 @@
 
 .footerItems li {
   margin: 0.5rem 0;
+  font-size: 1.2rem;
+}
+
+.footerItems li a {
+  text-decoration: underline;
+}
+
+.footerItems li a:active {
+  background-color: #854d27;
 }

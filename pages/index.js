@@ -23,7 +23,7 @@ export default function Home() {
         </div>
 
         <div className={home.actionLinks}>
-          <a href="#">Takeaway / Delivery - Order Online</a>
+          <a href="menu">Takeaway / Delivery - Order Online</a>
           <a href="#">Book a table online</a>
         </div>
       </section>

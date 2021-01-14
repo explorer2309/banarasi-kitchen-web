@@ -1,0 +1,779 @@
+{
+    "menu": [
+      {
+        "id": 1,
+        "section": "Starters - Vegetarian",
+        "items": [
+          {
+            "referenceNumber": 1,
+            "name": "Vegetable Momo’s",
+            "description": "Steamed vegetable dumplings served with tomato and roasted sesame chutney",
+            "price": 5.95
+          },
+          {
+            "referenceNumber": 2,
+            "name": "Vegetable Banarasi Samosa",
+            "description": "Steamed vegetable dumplings served with tomato and roasted sesame chutney",
+            "price": 3.95
+          },
+          {
+            "referenceNumber": 3,
+            "name": "Banarasi Aloo Chaat",
+            "description": "Crispy fried potato cakes, served with chickpeas, dressed with yoghurt, mint and tangy tamarind",
+            "price": 4.95
+          },
+          {
+            "referenceNumber": 4,
+            "name": "Patta Chaat",
+            "description": "Crisp Baby spinach, batter fried in chickpea flour, dressed in Greek yogurt, mint and tangy tamarind",
+            "price": 4.95
+          },
+          {
+            "referenceNumber": 5,
+            "name": "Lasooni Mushroom",
+            "description": "Batter fried mushroom with a hint of Garlic",
+            "price": 4.95
+          },
+          {
+            "referenceNumber": 6,
+            "name": "Vegetable spring roll",
+            "description": "Crunchy vegetables, wrapped in filo pastry, golden fried",
+            "price": 4.25
+          },
+          {
+            "referenceNumber": 7,
+            "name": "Onion Bhaji",
+            "description": "Deep fried onion and gram flour dumplings an all-time favorite",
+            "price": 3.95
+          },
+          {
+            "referenceNumber": 8,
+            "name": "Tandoori Broccoli",
+            "description": "Fresh Broccoli florets, marinated in cream cheese and spiked with spices, cooked till tender in a clay oven",
+            "price": 4.95
+          },
+          {
+            "referenceNumber": 9,
+            "name": "Tandoori Paneer Tikka",
+            "description": "Cottage cheese marinated in tandoori masala and grilled in the clay oven",
+            "price": 6.95
+          },
+          {
+            "referenceNumber": 10,
+            "name": "Tandoori Paneer Tikka Shaslik",
+            "description": "Skewered pieces of marinated chicken in spices cooked in a tandoori with Peppers and Onions",
+            "price": 7.45
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "section": "Starters - Fish & Seafood",
+        "items": [
+          {
+            "referenceNumber": 11,
+            "name": "Whitebait",
+            "description": "Crispy fried white bait dusted in rice flour",
+            "price": 5.95
+          },
+          {
+            "referenceNumber": 12,
+            "name": "Kalamari fry",
+            "description": "Crispy Batter Fried Squids served with sweet chilli",
+            "price": 5.95
+          },
+          {
+            "referenceNumber": 13,
+            "name": "Salmon Tikka",
+            "description": "Tandoori Salmon marinated with a hint of Dijon mustard and yoghurt and smoked in the clay oven",
+            "price": 6.95
+          },
+          {
+            "referenceNumber": 14,
+            "name": "Amritsari Fish",
+            "description": "Battered, spiced fillets of fish – a favourite from the streets of Amritsar",
+            "price": 6.95
+          },
+          {
+            "referenceNumber": 15,
+            "name": "Prawn Tandoori",
+            "description": "King prawns marinated in chefs’ secret marinade and smoked in tandoor",
+            "price": 12.95
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "section": "Starters - Chicken & Lamb",
+        "items": [
+          {
+            "referenceNumber": 16,
+            "name": "Chicken Momo’s",
+            "description": "Handmade chicken dumplings served with tomato and roasted sesame chutney",
+            "price": 6.45
+          },
+          {
+            "referenceNumber": 17,
+            "name": "Chicken Samosa",
+            "description": "Homemade triangular pastry stuffed with cauliflower, carrot, bell peppers and chicken mince",
+            "price": 3.95
+          },
+          {
+            "referenceNumber": 18,
+            "name": "Tandoori Chicken Tikka",
+            "description": "Succulent chicken cubes marinated in yoghurt and tandoori spices",
+            "price": 7.95
+          },
+          {
+            "referenceNumber": 19,
+            "name": "Tandoori Murgh Malai Kebab",
+            "description": "Tender chicken breast marinated in cream cheese and pepper",
+            "price": 7.95
+          },
+          {
+            "referenceNumber": 20,
+            "name": "Tandoori Lamb Seekh Kebab",
+            "description": "Skewered minced lamb kebabs flavoured with herbs and chefs’ own spices",
+            "price": 7.95
+          },
+          {
+            "referenceNumber": 21,
+            "name": "Lamb Samosa",
+            "description": "Homemade triangular pastry stuffed with garden peas and lamb mince, spiked with spices",
+            "price": 3.95
+          },
+          {
+            "referenceNumber": 22,
+            "name": "Banarasi Shami Kebab",
+            "description": "Melt in mouth delight, lamb mince and lentil kebabs, griddled to perfection and served with fresh onion rings and mint chutney – a treat for the royals",
+            "price": 6.95
+          },
+          {
+            "referenceNumber": 23,
+            "name": "Duck Spring Roll",
+            "description": "Crunchy vegetables and Duck breast slices wrapped in a filo pastry, served with a sweet chilli dip",
+            "price": 6.45
+          },
+          {
+            "referenceNumber": 24,
+            "name": "Tandoori Duck Shashlik",
+            "description": "Poached duck breast, Onions and mix bell Peppers, seasoned and marinated in tandoori spices and grilled in charcoal oven.",
+            "price": 9.95
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "section": "Starters - Sharing Platters",
+        "items": [
+          {
+            "referenceNumber": 25,
+            "name": "Veg Mix Platter",
+            "description": "Vegetable Samosa, Aloo Tikki, Paneer Tikka, Onion Bhaji &amp; Lasooni Mushroom with garlic naan",
+            "price": 11.95
+          },
+          {
+            "referenceNumber": 25,
+            "name": "Mix Grill",
+            "description": "Chicken tikka, Malai Kebab, Lamb Chop, Lamb Seekh Kebab, Td. Salmon &amp; Td. Prawn served with garlic naan",
+            "price": 18.95
+          },
+          {
+            "referenceNumber": 26,
+            "name": "Mix Platter",
+            "description": "Onion Bhaji, Lamb Seekh Kebab, Chicken Tikka",
+            "price": 9.95
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "section": "Main Course - Vegetarian",
+        "items": [
+          {
+            "referenceNumber": 31,
+            "name": "Aloo Dum Banarasi",
+            "description": "Stuffed with nuts &amp; cottage cheese, deep fried Baby potatoes in rich and creamy Indian tomato gravy",
+            "price": 10.25
+          },
+          {
+            "referenceNumber": 32,
+            "name": "Rye Ke Aloo",
+            "description": "Humble potatoes tempered with black mustard seeds and curry leaves",
+            "price": 7.25
+          },
+          {
+            "referenceNumber": 33,
+            "name": "Jeera Aloo",
+            "description": "Desiree/Red Pontiac potatoes, tempered with cumin and cooked to perfection",
+            "price": 7.25
+          },
+          {
+            "referenceNumber": 34,
+            "name": "Bombay Aloo",
+            "description": "Desiree/Red Pontiac potatoes cooked with a mélange of whole spices and a touch of onion tomato gravy",
+            "price": 7.5
+          },
+          {
+            "referenceNumber": 35,
+            "name": "Aloo Gobhi",
+            "description": "An evergreen marriage of potatoes and cauliflower florets, flavoured with spices and cooked tender.",
+            "price": 9.25
+          },
+          {
+            "referenceNumber": 36,
+            "name": "Vegetable Korma",
+            "description": "A medley of vegetables, cooked in a creamy coconut gravy enriched with nuts – an all-time national favourite",
+            "price": 9.25
+          },
+          {
+            "referenceNumber": 37,
+            "name": "Achari Bhindi",
+            "description": "Stir fried Okra, in mustard oil and pickling spices",
+            "price": 9.25
+          },
+          {
+            "referenceNumber": 38,
+            "name": "Bhindi Do Pyaza",
+            "description": "Garden fresh okra, cooked with twice the amount of onion to give it the intense flavour and sweetness",
+            "price": 9.25
+          },
+          {
+            "referenceNumber": 39,
+            "name": "Baingan Bharta",
+            "description": "Purple aubrgine, cooked in tandoor, crushed into a rough tartare flavoured with mustard oil, garlic and spring onion",
+            "price": 9.25
+          },
+          {
+            "referenceNumber": 40,
+            "name": "Paneer Makhani",
+            "description": "An extensively popular dish of India – cubes of cottage cheese, steeped in a creamy butter enriched tomato gravy, a favourite of a billion people globally",
+            "price": 9.25
+          },
+          {
+            "referenceNumber": 41,
+            "name": "Paneer Karahi",
+            "description": "Cottage cheese, cooked with karahi spices and flavoured with dried fenugreek leaves",
+            "price": 9.5
+          },
+          {
+            "referenceNumber": 42,
+            "name": "Paneer Jalfrezi",
+            "description": "A dish created from the leftovers of bell peppers, onions, tomatoes and steeped in a spicy tomato gravy, with origin in Bengal (India) now a main stream dish. One of the most popular dishes in UK",
+            "price": 9.5
+          },
+          {
+            "referenceNumber": 43,
+            "name": "Palak Paneer",
+            "description": "Cubed Cottage cheese, cooked in a pureed spinach and yoghurt gravy, flavoured with garlic",
+            "price": 9.25
+          },
+          {
+            "referenceNumber": 44,
+            "name": "Plain Palak",
+            "description": "Creamy crunchy green spinach, flavoured with garlic, fenugreek and cooked to perfection on a slow fire",
+            "price": 9.25
+          },
+          {
+            "referenceNumber": 45,
+            "name": "Palak Malai Corn",
+            "description": "Humble spinach, contrasted with stir fried corn kernels giving this dish an amazing tantalizing flavour",
+            "price": 9.25
+          },
+          {
+            "referenceNumber": 46,
+            "name": "Palak Aloo",
+            "description": "Potatoes cooked with spinach, flavoured with cumin",
+            "price": 9.25
+          },
+          {
+            "referenceNumber": 47,
+            "name": "Palak Malai Kofta",
+            "description": "Homemade dumplings of cottage cheese and baby spinach, steeped in a creamy tomato and coconut gravy",
+            "price": 10.25
+          },
+          {
+            "referenceNumber": 48,
+            "name": "Punjabi Cholay",
+            "description": "Chickpeas slow cooked in spicy tomato and onion gravy – from the streets of Punjab to the dining table",
+            "price": 9.25
+          },
+          {
+            "referenceNumber": 49,
+            "name": "Mushroom Matar Aloo",
+            "description": "Mushrooms, potatoes and green peas cooked in a rich masala gravy- best had with a fresh roti or rice",
+            "price": 9.25
+          },
+          {
+            "referenceNumber": 50,
+            "name": "Chilli Paneer",
+            "description": "A mouthwatering Indo - Chinese dish, stir fried in a Wok, bursting with fresh flavours",
+            "price": 9.25
+          },
+          {
+            "referenceNumber": 51,
+            "name": "Dal Maharani",
+            "description": "Black Lentils and kidney beans cooked overnight with fenugreek, cinnamon and finished with cream",
+            "price": 9.25
+          },
+          {
+            "referenceNumber": 52,
+            "name": "Daal Yellow Butter Fry",
+            "description": "Yellow lentils tempered with butter and cumin",
+            "price": 7.95
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "section": "Main Course - Lamb",
+        "items": [
+          {
+            "referenceNumber": 61,
+            "name": "Lamb Roganjosh",
+            "description": "Tender lamb cooked in a classic onion and tomato gravy with its origin in Kashmir province",
+            "price": 10.25
+          },
+          {
+            "referenceNumber": 62,
+            "name": "Railway Lamb",
+            "description": "A classic tender lamb curry, historically served in the ‘First Class’ coaches of Indian Railway",
+            "price": 10.25
+          },
+          {
+            "referenceNumber": 63,
+            "name": "Bhuna Lamb",
+            "description": "A slow braised lamb curry, cooked with fried spices",
+            "price": 10.25
+          },
+          {
+            "referenceNumber": 64,
+            "name": "Lamb Korma",
+            "description": "Succulent lamb, cooked in a creamy coconut gravy enriched with nuts – an all-time national favourite",
+            "price": 10.95
+          },
+          {
+            "referenceNumber": 65,
+            "name": "Karahi Lamb",
+            "description": "Tender lamb, cooked with karahi spices and flavoured with dried fenugreek leaves",
+            "price": 10.95
+          },
+          {
+            "referenceNumber": 66,
+            "name": "Lamb Jalfrezi",
+            "description": "A dish created from the leftovers of bell peppers, onions, tomatoes and steeped in a spicy tomato gravy, with origin in Bengal (India) now a main stream dish. One of the most popular dishes in UK",
+            "price": 10.95
+          },
+          {
+            "referenceNumber": 67,
+            "name": "Saag Lamb",
+            "description": "Diced lamb, cooked in a pureed spinach and yoghurt gravy, flavoured with garlic",
+            "price": 10.95
+          },
+          {
+            "referenceNumber": 68,
+            "name": "Tandoori Lamb Chops",
+            "description": "Tender British Lamb Chops marinated and cooked to perfection in Clay Oven",
+            "price": 12.95
+          },
+          {
+            "referenceNumber": 69,
+            "name": "Lamb Chops Masala",
+            "description": "Tender Lamb Chops cooked in Tandoor and steeped in a masala gravy",
+            "price": 13.95
+          }
+        ]
+      },
+      {
+        "id": 7,
+        "section": "Main Course - Chicken & Duck",
+        "items": [
+          {
+            "referenceNumber": 71,
+            "name": "Murg Kori Gassi (Mangalorian)",
+            "description": "A Chicken speciality from Mangalore, a medium spicy delicacy flavoured with coconut and tempered with curry leaves &amp; mustard seeds.",
+            "price": 10.45
+          },
+          {
+            "referenceNumber": 72,
+            "name": "Murg Makhani",
+            "description": "Or The Chicken Tikka Masala or The Butter Chicken as we call it the national dish of the UK",
+            "price": 10.45
+          },
+          {
+            "referenceNumber": 73,
+            "name": "Bhuna Chicken",
+            "description": "A classic chicken dish with roasted spices and stir fried tender chicken",
+            "price": 10.25
+          },
+          {
+            "referenceNumber": 74,
+            "name": "Chicken Korma",
+            "description": "The Humble creamy chicken dish prepared using cashewnuts, a hint of coconut and fresh cream.",
+            "price": 10.95
+          },
+          {
+            "referenceNumber": 75,
+            "name": "Karahi Chicken",
+            "description": "A stir fried chicken with mix peppers, onion and a home roasted karahi spices.",
+            "price": 10.95
+          },
+          {
+            "referenceNumber": 76,
+            "name": "Chicken Jalfrezi",
+            "description": "A stir fried Cuisine originating from the Barracks of the British East India company with strips of chicken and mix peppers.",
+            "price": 10.95
+          },
+          {
+            "referenceNumber": 77,
+            "name": "Saag Chicken",
+            "description": "Chopped spinach flavoured with garlic with succulent pieces of chicken.",
+            "price": 10.95
+          },
+          {
+            "referenceNumber": 78,
+            "name": "Chicken Punjabi Masala",
+            "description": "A spicy Punjabi style of chicken curry with Onion and tomato.",
+            "price": 10.25
+          },
+          {
+            "referenceNumber": 79,
+            "name": "Tandoori Chicken (half)",
+            "description": "Spring Chicken with Mace and yoghurt and home roasted ground spices",
+            "price": 7.95
+          },
+          {
+            "referenceNumber": 80,
+            "name": "Chilli Chicken",
+            "description": "A Stir fry dish popular in the street of Banaras with mix peppers and onion wrapped in soya sauce and tomato ketchup",
+            "price": 9.95
+          },
+          {
+            "referenceNumber": 81,
+            "name": "Duck Masaledar",
+            "description": "Tandoor roasted duck breast in Chef D’s special gravy.",
+            "price": 11.95
+          }
+        ]
+      },
+      {
+        "id": 8,
+        "section": "Main Course - Fish & Seafood",
+        "items": [
+          {
+            "referenceNumber": 91,
+            "name": "Tandoori Salmon",
+            "description": "Succulent pieces of salmon seasoned with grain mustard and yoghurt lightly drizzled with mustard oil",
+            "price": 11.95
+          },
+          {
+            "referenceNumber": 92,
+            "name": "Pink Salmon Curry",
+            "description": "Responsibly farmed pink salmon cubes, cooked on slow flame in a coconut and masala gravy",
+            "price": 11.95
+          },
+          {
+            "referenceNumber": 93,
+            "name": "Sea Bass Moilee",
+            "description": "A coastal specialty of India, Delicate seabass, on a bed of spinach with a lip-smacking coconut cream and tempered with curry leaves.",
+            "price": 11.95
+          },
+          {
+            "referenceNumber": 94,
+            "name": "King Prawn Moilee",
+            "description": "A coastal specialty of India with, king prawns in a coconut cream and tempered with curry leaves.",
+            "price": 12.95
+          },
+          {
+            "referenceNumber": 95,
+            "name": "King Prawns Masala",
+            "description": "King Prawns, simmered in Chef D’s own masala gravy.",
+            "price": 12.95
+          },
+          {
+            "referenceNumber": 96,
+            "name": "Tandoori King Prawn",
+            "description": "King Prawns marinated in yoghurt, flavoured with English mustard and roasted spices.",
+            "price": 12.95
+          },
+          {
+            "referenceNumber": 97,
+            "name": "King Prawns Curry",
+            "description": "King prawns tossed in a creamy masala gravy.",
+            "price": 12.95
+          }
+        ]
+      },
+      {
+        "id": 9,
+        "section": "Main Course - Rice & Breads",
+        "items": [
+          {
+            "referenceNumber": 101,
+            "name": "Steamed Basmati rice",
+            "description": "",
+            "price": 2.95
+          },
+          {
+            "referenceNumber": 102,
+            "name": "Jeera Pilav Rice",
+            "description": "",
+            "price": 3.25
+          },
+          {
+            "referenceNumber": 103,
+            "name": "Mushroom Rice",
+            "description": "",
+            "price": 4.55
+          },
+          {
+            "referenceNumber": 104,
+            "name": "Egg fried rice",
+            "description": "",
+            "price": 4.55
+          },
+          {
+            "referenceNumber": 105,
+            "name": "Vegetable Biryani",
+            "description": "From the land of Awadh , hand cut seasonal vegetables layered with Basmati rice and flavoured with fresh mint.",
+            "price": 8.95
+          },
+          {
+            "referenceNumber": 106,
+            "name": "Chicken Biryani",
+            "description": "Boneless pieces of chicken cooked with aromatic basmati rice, flavoured with slow roasted spices and herbs.",
+            "price": 9.95
+          },
+          {
+            "referenceNumber": 107,
+            "name": "Lamb Biryani",
+            "description": "An Awadh speciality of tender lamb, cooked on slow fire with Basmati rice and layered and cooked in a sealed pot. * On the bone version available with pre-booking.",
+            "price": 10.95
+          },
+          {
+            "referenceNumber": 108,
+            "name": "Naan (Butter / Garlic / Chilli)",
+            "description": "",
+            "price": 2.95
+          },
+          {
+            "referenceNumber": 109,
+            "name": "Keema Naan",
+            "description": "",
+            "price": 3.95
+          },
+          {
+            "referenceNumber": 110,
+            "name": "Peshawari Naan",
+            "description": "A speciality bread with coconut, raisins and almonds.",
+            "price": 3.95
+          },
+          {
+            "referenceNumber": 111,
+            "name": "Kulcha Aloo",
+            "description": "",
+            "price": 3.45
+          },
+          {
+            "referenceNumber": 112,
+            "name": "Kulcha Onion",
+            "description": "",
+            "price": 3.45
+          },
+          {
+            "referenceNumber": 113,
+            "name": "Kulcha Paneer",
+            "description": "",
+            "price": 3.45
+          },
+          {
+            "referenceNumber": 114,
+            "name": "Parathas (Lacchha / Mint)",
+            "description": "",
+            "price": 2.95
+          },
+          {
+            "referenceNumber": 115,
+            "name": "Tandoori Roti",
+            "description": "",
+            "price": 2.5
+          },
+          {
+            "referenceNumber": 116,
+            "name": "Chapatti",
+            "description": "",
+            "price": 1.95
+          }
+        ]
+      },
+      {
+        "id": 10,
+        "section": "Desserts",
+        "items": [
+          {
+            "referenceNumber": 121,
+            "name": "Gulab Jamun",
+            "description": "",
+            "price": 4
+          },
+          {
+            "referenceNumber": 122,
+            "name": "Gajar ka Halwa",
+            "description": "",
+            "price": 4.95
+          },
+          {
+            "referenceNumber": 123,
+            "name": "Kesari Phirni",
+            "description": "",
+            "price": 4.95
+          },
+          {
+            "referenceNumber": 124,
+            "name": "Sticky toffee pudding with custard",
+            "description": "",
+            "price": 4.95
+          },
+          {
+            "referenceNumber": 125,
+            "name": "Eaton Mess",
+            "description": "",
+            "price": 4.95
+          },
+          {
+            "referenceNumber": 126,
+            "name": "Ice Cream (Vanilla /Choc/Stra)",
+            "description": "",
+            "price": 3
+          }
+        ]
+      },
+      {
+        "id": 11,
+        "section": "Children's Corner",
+        "items": [
+          {
+            "referenceNumber": 131,
+            "name": "Chicken Nuggets",
+            "description": "",
+            "price": 3.95
+          },
+          {
+            "referenceNumber": 132,
+            "name": "Fish Fingers",
+            "description": "",
+            "price": 3.95
+          },
+          {
+            "referenceNumber": 133,
+            "name": "Grandma’s Garden Veggie",
+            "description": "All Kid’s meals are served with Buttered Rice",
+            "price": 3.95
+          }
+        ]
+      },
+      {
+        "id": 12,
+        "section": "Main Course - Our Homemade British Special",
+        "items": [
+          {
+            "referenceNumber": "",
+            "name": "Beer Battered Fish and Chips",
+            "description": "",
+            "price": 10.25
+          },
+          {
+            "referenceNumber": "",
+            "name": "Jumbo Chicken wings",
+            "description": "",
+            "price": 7.99
+          },
+          {
+            "referenceNumber": "",
+            "name": "Jumbo Chicken Wings with chips",
+            "description": "",
+            "price": 9.5
+          },
+          {
+            "referenceNumber": "",
+            "name": "Classic Homemade Burger",
+            "description": "",
+            "price": 9.25
+          },
+          {
+            "referenceNumber": "",
+            "name": "Cajun Chicken Breast Burger",
+            "description": "",
+            "price": 8.95
+          },
+          {
+            "referenceNumber": "",
+            "name": "Butterfly Chicken with potato & Jus",
+            "description": "",
+            "price": 11.95
+          },
+          {
+            "referenceNumber": "",
+            "name": "Caesar Salad Vegetarian",
+            "description": "",
+            "price": 5.95
+          },
+          {
+            "referenceNumber": "",
+            "name": "Caesar Salad with Chicken",
+            "description": "",
+            "price": 8.95
+          }
+        ]
+      },
+      {
+        "id": 13,
+        "section": "Main Course - Sides",
+        "items": [
+          {
+            "referenceNumber": "",
+            "name": "Poppadum Plain 2pcs with chutney",
+            "description": "",
+            "price": 2.99
+          },
+          {
+            "referenceNumber": "",
+            "name": "Single Poppadum pcs",
+            "description": "",
+            "price": 1
+          },
+          {
+            "referenceNumber": "",
+            "name": "Chutney Pot (mint/ tamarind/Mango)",
+            "description": "",
+            "price": 0.75
+          },
+          {
+            "referenceNumber": "",
+            "name": "Indian Onion, Chilli & Lemon Salad",
+            "description": "",
+            "price": 3.5
+          },
+          {
+            "referenceNumber": "",
+            "name": "Cucumber Raita",
+            "description": "",
+            "price": 2.99
+          },
+          {
+            "referenceNumber": "",
+            "name": "Plain Chips",
+            "description": "",
+            "price": 2.99
+          },
+          {
+            "referenceNumber": "",
+            "name": "Spicy Masala Chips",
+            "description": "",
+            "price": 3.5
+          }
+        ]
+      }
+    ]
+  }
+  
