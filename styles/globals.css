@@ -18,6 +18,7 @@ body {
 body {
   margin: 0 auto;
   background-color: #f4c95d;
+  max-width: 600px;
 }
 
 a {
@@ -31,4 +32,21 @@ a:hover {
 
 * {
   box-sizing: border-box;
+}
+
+details[open] > summary {
+  border: none;
+}
+
+summary {
+  list-style-image: none;
+}
+
+summary:active {
+  border: none;
+}
+
+summary::-webkit-details-marker {
+  background: none;
+  color: transparent;
 }

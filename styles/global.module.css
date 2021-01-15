@@ -1,5 +1,4 @@
 .container {
-  min-height: 100vh;
   padding: 0;
   display: flex;
   flex-direction: column;
@@ -66,4 +65,29 @@
 
 .footerItems li a:active {
   background-color: #854d27;
+}
+
+.siteMenu {
+  list-style-type: none;
+  padding: 0;
+}
+
+.siteMenu li {
+  display: inline-block;
+  color: #fff;
+  margin: 0.3rem;
+}
+
+.siteMenu li a {
+  line-height: 25px !important;
+  padding: 0.3rem 1rem;
+  display: block;
+  text-transform: uppercase;
+  font-size: 1rem;
+  background: #854d27;
+  border-radius: 0.3rem;
+}
+
+.siteMenu li a {
+  background: #04030f;
 }

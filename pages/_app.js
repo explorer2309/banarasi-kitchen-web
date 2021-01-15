@@ -10,6 +10,27 @@ function MyApp({ Component, pageProps }) {
           <span className={global.brandSpacer}> &amp; </span>
           <span className={global.brand}>Banarasi Kitchen</span>
         </h1>
+
+        <details className="">
+          <summary className="">
+            <span className="">Menu &#9776;</span>
+          </summary>
+          <ul className={global.siteMenu}>
+            <li>
+              <a href="/">Home</a>
+            </li>
+            <li>
+              <a href="/menu">Menu</a>
+            </li>
+            <li>
+              <a href="/drinks">Drinks</a>
+            </li>
+            <li>
+              <a href="/sports">Sports</a>
+            </li>
+          </ul>
+        </details>
+
         <Component {...pageProps} />
 
         <footer className={global.footer}>
