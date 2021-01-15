@@ -73,7 +73,7 @@ export function listOfMenus() {
   );
 }
 
-export function renderMenu({ menu }) {
+export function renderMenu({ menu, title }) {
   function Section({ id, section, items, background }) {
     return (
       <div
@@ -104,6 +104,7 @@ export function renderMenu({ menu }) {
   return (
     <>
       {listOfMenus()}
+      <h1 className={style.menuTitle}>{title}</h1>
       <section className="">
         {Object.keys(menu).map((key, idx) => {
           const items = menu[key];

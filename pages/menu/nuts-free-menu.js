@@ -1,7 +1,7 @@
 import { getMenu, renderMenu } from "../../components/menu-helper";
 
 export default function FullMenu({ menu }) {
-  return renderMenu({ menu });
+  return renderMenu({ menu, title: "Nut-Free Menu" });
 }
 
 export async function getStaticProps() {
