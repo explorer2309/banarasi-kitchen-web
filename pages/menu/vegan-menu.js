@@ -5,7 +5,16 @@ export default function FullMenu({ menu }) {
 }
 
 export async function getStaticProps() {
-  const menu = await getMenu();
+  const fullMenu = await getMenu();
+  const menu = {};
+
+  Object.keys(fullMenu).forEach((section) => {
+    const items = fullMenu[section].filter((item) => item.isVegan);
+    if (items.length) {
+      menu[section] = items;
+    }
+  });
+
   return {
     props: {
       menu: menu,

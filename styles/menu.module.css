@@ -39,3 +39,22 @@
   display: block;
   width: 90%;
 }
+
+.menuList {
+  list-style-type: none;
+  padding: 0;
+}
+
+.menuList li {
+  display: inline-block;
+  margin: 0.3rem;
+}
+
+.menuList li a {
+  font-size: 1.2rem;
+  text-decoration: underline;
+  background-color: #dd7230;
+  padding: 0.3rem 1rem;
+  color: #fff;
+  border-radius: 0.3rem;
+}
