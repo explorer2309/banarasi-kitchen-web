@@ -1,4 +1,4 @@
-import { getMenu, renderMenu } from "./helpers/menu-helper";
+import { getMenu, renderMenu } from "../../components/menu-helper";
 
 export default function FullMenu({ menu }) {
   return renderMenu({ menu });

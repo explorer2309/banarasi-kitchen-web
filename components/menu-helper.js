@@ -1,8 +1,8 @@
 import Link from "next/link";
-import style from "../../../styles/menu.module.css";
+import style from "../styles/menu.module.css";
 
 export async function getMenu() {
-  const data = await import("../../../data/banarasi-kitchen-menu.json");
+  const data = await import("../data/banarasi-kitchen-menu.json");
   let menu = {};
 
   Object.keys(data.banarasiKitchenMenu).forEach((key) => {

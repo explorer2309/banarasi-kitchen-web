@@ -1,4 +1,4 @@
-import { getMenu } from "./helpers/menu-helper";
+import { getMenu } from "../../components/menu-helper";
 
 export default function FormattedMenuJson({ menu }) {
   return <pre>{JSON.stringify(menu, null, 2)}</pre>;
