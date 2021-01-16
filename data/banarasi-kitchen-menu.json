@@ -33,6 +33,7 @@
       "price": 4.95,
       "glutenFree": "y",
       "vegan": "Opt.",
+      "isvegetarian": "Y",
       "hasmilkordairy": "Y"
     },
     {
@@ -44,6 +45,7 @@
       "price": 4.95,
       "glutenFree": "y",
       "vegan": "Opt.",
+      "isvegetarian": "Y",
       "hasmilkordairy": "y"
     },
     {
@@ -55,6 +57,7 @@
       "price": 4.95,
       "glutenFree": "y",
       "vegan": "y",
+      "isvegetarian": "Y",
       "hasmustard": "y"
     },
     {
@@ -63,7 +66,9 @@
       "subsection": "Vegetarian",
       "name": "Vegetable spring roll",
       "description": "Crunchy vegetables, wrapped in filo pastry, golden fried",
-      "price": 4.25
+      "isRemoved": "Y",
+      "price": 4.25,
+      "isvegetarian": "Y"
     },
     {
       "referenceNumber": 6,
@@ -73,7 +78,8 @@
       "description": "Deep fried onion and gram flour dumplings an all-time favorite",
       "price": 3.95,
       "glutenFree": "y",
-      "vegan": "y"
+      "vegan": "y",
+      "isvegetarian": "Y"
     },
     {
       "referenceNumber": 7,
@@ -83,6 +89,7 @@
       "description": "Fresh Broccoli florets, marinated in cream cheese and spiked with spices, cooked till tender in a clay oven",
       "price": 4.95,
       "glutenFree": "y",
+      "isvegetarian": "Y",
       "hasmilkordairy": "y"
     },
     {
@@ -94,6 +101,7 @@
       "price": 6.95,
       "glutenFree": "y",
       "ishot": "y",
+      "isvegetarian": "Y",
       "hasmilkordairy": "y"
     },
     {
@@ -102,7 +110,9 @@
       "subsection": "Vegetarian",
       "name": "Tandoori Paneer Tikka Shaslik",
       "description": "Skewered pieces of marinated chicken in spices cooked in a tandoori with Peppers and Onions",
-      "price": 7.45
+      "isRemoved": "Y",
+      "price": 7.45,
+      "isvegetarian": "Y"
     },
     {
       "referenceNumber": 11,
@@ -155,6 +165,7 @@
       "subsection": "Fish & Seafood ",
       "name": "Prawn Tandoori",
       "description": "King prawns marinated in chefs’ secret marinade and smoked in tandoor",
+      "isRemoved": "Y",
       "price": 12.95
     },
     {
@@ -227,6 +238,7 @@
       "subsection": "Poultry & Lamb ",
       "name": "Duck Spring Roll",
       "description": "Crunchy vegetables and Duck breast slices wrapped in a filo pastry, served with a sweet chilli dip",
+      "isRemoved": "Y",
       "price": 6.45
     },
     {
@@ -247,6 +259,7 @@
       "price": 11.95,
       "vegan": "Opt.",
       "ishot": "y",
+      "isvegetarian": "Y",
       "hasglutens": "y",
       "hasmilkordairy": "y",
       "hasmustard": "y"
@@ -280,7 +293,9 @@
       "subsection": "Vegetarian",
       "name": "Aloo Dum Banarasi",
       "description": "Stuffed with nuts & cottage cheese, deep fried Baby potatoes in rich and creamy Indian tomato gravy",
-      "price": 10.25
+      "isRemoved": "Y",
+      "price": 10.25,
+      "isvegetarian": "Y"
     },
     {
       "referenceNumber": 41,
@@ -291,7 +306,8 @@
       "smallprice": 3.95,
       "price": 7.25,
       "glutenFree": "y",
-      "vegan": "y"
+      "vegan": "y",
+      "isvegetarian": "Y"
     },
     {
       "referenceNumber": 42,
@@ -302,7 +318,8 @@
       "smallprice": 3.95,
       "price": 7.25,
       "glutenFree": "y",
-      "vegan": "y"
+      "vegan": "y",
+      "isvegetarian": "Y"
     },
     {
       "referenceNumber": 43,
@@ -313,7 +330,8 @@
       "smallprice": 4.5,
       "price": 7.5,
       "glutenFree": "y",
-      "vegan": "y"
+      "vegan": "y",
+      "isvegetarian": "Y"
     },
     {
       "referenceNumber": 44,
@@ -324,7 +342,8 @@
       "smallprice": 4.5,
       "price": 9,
       "glutenFree": "y",
-      "vegan": "y"
+      "vegan": "y",
+      "isvegetarian": "Y"
     },
     {
       "referenceNumber": 45,
@@ -334,6 +353,7 @@
       "description": "A medley of seasonal vegetables, cooked in a creamy coconut gravy enriched with nuts – an all-time national favourite",
       "price": 9.25,
       "glutenFree": "y",
+      "isvegetarian": "Y",
       "hasnuts": "y",
       "hasmilkordairy": "y"
     },
@@ -347,6 +367,7 @@
       "price": 9.25,
       "glutenFree": "y",
       "vegan": "y",
+      "isvegetarian": "Y",
       "hasmustard": "y"
     },
     {
@@ -358,7 +379,8 @@
       "smallprice": 4.95,
       "price": 9.25,
       "glutenFree": "y",
-      "vegan": "y"
+      "vegan": "y",
+      "isvegetarian": "Y"
     },
     {
       "referenceNumber": 48,
@@ -370,6 +392,7 @@
       "price": 9.25,
       "glutenFree": "y",
       "vegan": "y",
+      "isvegetarian": "Y",
       "hasmustard": "y"
     },
     {
@@ -381,7 +404,8 @@
       "smallprice": 4.95,
       "price": 9.25,
       "glutenFree": "y",
-      "vegan": "y"
+      "vegan": "y",
+      "isvegetarian": "Y"
     },
     {
       "referenceNumber": 50,
@@ -391,6 +415,7 @@
       "description": "Homemade dumplings of cottage cheese and baby spinach, steeped in a creamy tomato and coconut gravy",
       "price": 10.25,
       "glutenFree": "y",
+      "isvegetarian": "Y",
       "hasmilkordairy": "y"
     },
     {
@@ -402,6 +427,7 @@
       "smallprice": 4.95,
       "price": 9.25,
       "glutenFree": "y",
+      "isvegetarian": "Y",
       "hasmilkordairy": "y"
     },
     {
@@ -413,6 +439,7 @@
       "price": 9.5,
       "glutenFree": "y",
       "ishot": "y",
+      "isvegetarian": "Y",
       "hasmilkordairy": "y",
       "hasmustard": "y"
     },
@@ -425,6 +452,7 @@
       "price": 9.5,
       "glutenFree": "y",
       "ishot": "y",
+      "isvegetarian": "Y",
       "hasmilkordairy": "y"
     },
     {
@@ -435,6 +463,7 @@
       "description": "A dish created from the leftovers of bell peppers, onions, tomatoes and steeped in a spicy tomato gravy, with origin in Bengal (India) now a main stream dish. One of the most popular dishes in UK",
       "price": 9.5,
       "glutenFree": "y",
+      "isvegetarian": "Y",
       "hasmilkordairy": "y"
     },
     {
@@ -445,6 +474,7 @@
       "description": "Humble spinach, contrasted with stir fried corn kernels giving this dish an amazing tantalizing flavour",
       "smallprice": 4.5,
       "price": 9.25,
+      "isvegetarian": "Y",
       "hasmilkordairy": "y"
     },
     {
@@ -455,6 +485,7 @@
       "description": "Potatoes cooked with spinach, flavoured with cumin",
       "smallprice": 4.5,
       "price": 9.25,
+      "isvegetarian": "Y",
       "hasmilkordairy": "y"
     },
     {
@@ -467,7 +498,8 @@
       "price": 8.5,
       "glutenFree": "y",
       "vegan": "y",
-      "ishot": "y"
+      "ishot": "y",
+      "isvegetarian": "Y"
     },
     {
       "referenceNumber": 58,
@@ -477,7 +509,8 @@
       "description": "Mushrooms, potatoes and green peas cooked in a rich masala gravy- best had with a fresh roti or rice",
       "price": 9.25,
       "vegan": "y",
-      "ishot": "y"
+      "ishot": "y",
+      "isvegetarian": "Y"
     },
     {
       "referenceNumber": 59,
@@ -486,6 +519,7 @@
       "name": "Chilli Paneer",
       "description": "A mouthwatering Indo - Chinese dish, stir fried in a Wok, bursting with fresh flavours",
       "price": 9.25,
+      "isvegetarian": "Y",
       "hasmilkordairy": "y"
     },
     {
@@ -497,6 +531,7 @@
       "smallprice": 4.95,
       "price": 9.25,
       "glutenFree": "y",
+      "isvegetarian": "Y",
       "hasmilkordairy": "y"
     },
     {
@@ -509,6 +544,7 @@
       "price": 7.95,
       "glutenFree": "y",
       "vegan": "opt",
+      "isvegetarian": "Y",
       "hasmilkordairy": "y"
     },
     {
@@ -776,7 +812,8 @@
       "name": "Steamed Basmati rice",
       "price": 2.95,
       "glutenFree": "y",
-      "vegan": "y"
+      "vegan": "y",
+      "isvegetarian": "Y"
     },
     {
       "referenceNumber": 122,
@@ -785,7 +822,8 @@
       "name": "Jeera Pilav Rice",
       "price": 3.25,
       "glutenFree": "y",
-      "vegan": "y"
+      "vegan": "y",
+      "isvegetarian": "Y"
     },
     {
       "referenceNumber": 123,
@@ -814,6 +852,7 @@
       "price": 8.95,
       "glutenFree": "y",
       "vegan": "opt",
+      "isvegetarian": "Y",
       "hasmilkordairy": "y"
     },
     {

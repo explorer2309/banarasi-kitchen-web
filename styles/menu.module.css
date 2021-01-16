@@ -1,3 +1,7 @@
+.menu {
+  width: 100%;
+}
+
 .menuSection {
   padding: 1rem;
   color: #fff;
@@ -25,6 +29,11 @@
 
 .itemName {
   font-weight: 500;
+}
+
+.number {
+  opacity: 0.95;
+  font-weight: 200;
 }
 
 .prices {
@@ -82,4 +91,21 @@
   padding: 0.3rem 1rem;
   color: #fff;
   border-radius: 0.3rem;
+}
+
+.drinksList {
+  list-style-type: none;
+  padding: 0;
+  color: #fff;
+  font-size: 1.2rem;
+  display: table;
+  width: 100%;
+}
+
+.drinkItem {
+  display: table-row;
+}
+
+.drinkItem div {
+  display: table-cell;
 }

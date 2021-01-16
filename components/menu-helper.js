@@ -8,34 +8,36 @@ export async function getMenu() {
   Object.keys(data.banarasiKitchenMenu).forEach((key) => {
     const item = data.banarasiKitchenMenu[key];
 
-    const sectionKey = item.subsection
-      ? `${item.section} - ${item.subsection}`
-      : item.section;
+    if (!item.isRemoved) {
+      const sectionKey = item.subsection
+        ? `${item.section} - ${item.subsection}`
+        : item.section;
 
-    if (!menu[sectionKey]) {
-      menu[sectionKey] = [];
+      if (!menu[sectionKey]) {
+        menu[sectionKey] = [];
+      }
+      const menuSection = menu[sectionKey];
+
+      menuSection.push({
+        num: item.referenceNumber,
+        name: item.name,
+        desc: item.description || null,
+        price: item.price || null,
+        priceSmall: item.smallprice || null,
+        isHot: item.ishot || null,
+        isVegan: item.vegan || null,
+        isVegetarian: item.isvegetarian || null,
+        isGlutenFree: item.glutenFree || null,
+        hasSesameSeeds: item.hassesameseeds || null,
+        hasMilkOrDairy: item.hasmilkordairy || null,
+        hasMustard: item.hasmustard || null,
+        hasCurstaceans: item.hascurstaceans || null,
+        hasNuts: item.hasnuts || null,
+        hasSoya: item.hassoya || null,
+        hasEggs: item.haseggs || null,
+        hasSulphurDioxide: item.hassulphurdioxide || null,
+      });
     }
-    const menuSection = menu[sectionKey];
-
-    menuSection.push({
-      num: item.referenceNumber,
-      name: item.name,
-      desc: item.description || null,
-      price: item.price || null,
-      priceSmall: item.smallprice || null,
-      isHot: item.ishot || null,
-      isVegan: item.vegan || null,
-      isVegetarian: item.isvegetarian || null,
-      isGlutenFree: item.glutenFree || null,
-      hasSesameSeeds: item.hassesameseeds || null,
-      hasMilkOrDairy: item.hasmilkordairy || null,
-      hasMustard: item.hasmustard || null,
-      hasCurstaceans: item.hascurstaceans || null,
-      hasNuts: item.hasnuts || null,
-      hasSoya: item.hassoya || null,
-      hasEggs: item.haseggs || null,
-      hasSulphurDioxide: item.hassulphurdioxide || null,
-    });
   });
 
   return menu;
@@ -94,7 +96,9 @@ export function renderMenu({ menu, title }) {
   function Item({ item }) {
     return (
       <li className={style.foodItem}>
-        <div className={style.itemName}>{item.name}</div>
+        <div className={style.itemName}>
+          {item.name} <span className={style.number}>({item.num})</span>
+        </div>
         <div className={style.prices}>
           <div className={style.price}>£{item.price}</div>
           {item.priceSmall && (

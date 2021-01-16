@@ -1,0 +1,181 @@
+{
+  "banarasiKitchenMenu": [
+    {
+      "reference": 201,
+      "section": "Beers and Cider",
+      "name": "Guiness",
+      "alcoholPct": 0.041,
+      "volume": "Pint",
+      "price": 3.9
+    },
+    {
+      "volume": "Half Pint",
+      "price": 2.5
+    },
+    {
+      "reference": 202,
+      "name": "San Miguel ",
+      "alcoholPct": 0.05,
+      "volume": "Pint",
+      "price": 4.1
+    },
+    {
+      "volume": "Half Pint",
+      "price": 2.5
+    },
+    {
+      "reference": 203,
+      "name": "Cobra ",
+      "alcoholPct": 0.043,
+      "price": 4
+    },
+    {
+      "reference": 204,
+      "name": "Stella Artois",
+      "alcoholPct": 0.048,
+      "price": 3.9,
+      "isRemoved": "Y"
+    },
+    {
+      "reference": 205,
+      "name": "Fosters ",
+      "alcoholPct": 0.04,
+      "price": 3.5
+    },
+    {
+      "reference": 206,
+      "name": "Carlsberg ",
+      "alcoholPct": 0.038,
+      "price": 2.8
+    },
+    {
+      "reference": 207,
+      "name": "Coors Light",
+      "alcoholPct": 0.04,
+      "price": 3.2
+    },
+    {
+      "reference": 208,
+      "name": "Doombar ",
+      "alcoholPct": 0.04,
+      "price": 3.8
+    },
+    {
+      "reference": 209,
+      "subsection": "Ale",
+      "name": "Citra Quad / razzle dazzle",
+      "alcoholPct": 0.043,
+      "price": 4
+    },
+    {
+      "reference": 210,
+      "subsection": "Ale",
+      "name": "Ferryman Gold ",
+      "alcoholPct": 0.044,
+      "price": 4
+    },
+    {
+      "reference": 211,
+      "subsection": "Ale",
+      "name": "Tetleys ",
+      "alcoholPct": 0.036,
+      "price": 3.7
+    },
+    {
+      "reference": 212,
+      "subsection": "Cider",
+      "name": "Bad Apple ",
+      "alcoholPct": 0.051,
+      "price": 3.8
+    },
+    {
+      "reference": 213,
+      "subsection": "Cider",
+      "name": "Magners Dark Fruit ",
+      "alcoholPct": 0.04,
+      "price": 4
+    },
+    {
+      "reference": 214,
+      "subsection": "Cider",
+      "name": "New Castle Brown ",
+      "price": 3.85
+    },
+    {
+      "reference": 215,
+      "subsection": "Cider",
+      "name": "Bulmers Original",
+      "price": 4.1
+    },
+    {
+      "reference": 216,
+      "subsection": "Cider",
+      "name": "Koppaberg Mix fruit ",
+      "price": 4
+    },
+    {
+      "reference": 217,
+      "subsection": "Cider",
+      "name": "Koppaberg Strawberry & Lime ",
+      "price": 4
+    },
+    {
+      "reference": 250,
+      "section": "Spirits ",
+      "subsection": "Vodka",
+      "name": "Grey Goose",
+      "price": 2.75
+    },
+    {
+      "reference": 251,
+      "name": "Smirnoff",
+      "price": 3.25
+    },
+    {
+      "reference": 252,
+      "name": "Absolute",
+      "price": 3.5
+    },
+    {
+      "reference": 253,
+      "name": "Finlandia",
+      "price": 3.25
+    },
+    {
+      "reference": 254,
+      "subsection": "Gin",
+      "name": "Hendriks",
+      "price": 3.9
+    },
+    {
+      "reference": 255,
+      "name": "Bombay Sapphire",
+      "price": 3.5
+    },
+    {
+      "reference": 256,
+      "name": "Gordons",
+      "price": 3.25
+    },
+    {
+      "reference": 257,
+      "name": "Gordons Pink",
+      "price": 3.25
+    },
+    {
+      "reference": 258,
+      "name": "Koppaberg Passion",
+      "price": 3.5
+    },
+    {
+      "reference": 259,
+      "name": "Koppaberg Strawberry",
+      "price": 3.5
+    },
+    {
+      "reference": 260,
+      "name": "Tanqeray no 10",
+      "price": 3.5
+    }
+  ]
+}
