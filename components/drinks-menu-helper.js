@@ -21,9 +21,9 @@ export async function getMenu() {
     }
 
     const reference = (lastReference = item.reference || lastReference);
-    const section = (lastSection = item.section || lastSection);
+    const section = (lastSection = item.section || lastSection).trim();
     const subSection = (lastSubSection =
-      item.subsection || lastSubSection || null);
+      item.subsection || lastSubSection || null).trim();
     const name = (lastName = item.name || lastName);
     const volume = item.volume || null;
     const price = (lastPrice = item.price || lastPrice);
@@ -120,6 +120,7 @@ export function renderMenu({ menu, title }) {
               <span className={style.number}>({item.reference})</span>
             </>
           )}
+          {isPreviousItem && <>&nbsp;</>}
         </div>
         <div className={style.alcoholPct}>
           {!isPreviousItem && item.alcoholPct}
