@@ -16,6 +16,10 @@ export async function getMenu() {
   Object.keys(data.banarasiKitchenMenu).forEach((key) => {
     const item = data.banarasiKitchenMenu[key];
 
+    if (!item.reference) {
+      return;
+    }
+
     const reference = (lastReference = item.reference || lastReference);
     const section = (lastSection = item.section || lastSection);
     const subSection = (lastSubSection =

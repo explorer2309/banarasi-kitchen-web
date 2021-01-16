@@ -108,7 +108,7 @@ export function renderMenu({ menu, title }) {
     return (
       <li className={style.foodItem}>
         <div className={style.itemName}>
-          {item.name}
+          {item.name}{" "}
           {allergens.length > 0 && (
             <span className={style.allergens}> ({allergens.join(", ")}) </span>
           )}

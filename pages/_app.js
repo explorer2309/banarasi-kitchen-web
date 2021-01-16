@@ -7,7 +7,7 @@ function MyApp({ Component, pageProps }) {
       <main className={global.main}>
         <h1 className={global.title}>
           <span className={global.brand}>Banarasi Kitchen</span>
-          <span className={global.tagLine}>Authentic Indian Cousine</span>
+          <span className={global.tagLine}>Authentic Indian Cuisine</span>
           <span className={global.brandSpacer}> with </span>
           <span className={global.brand}>The Spread Eagle</span>
           <span className={global.tagLine}>Traditional British Pub</span>
