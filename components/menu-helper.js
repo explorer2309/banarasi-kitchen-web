@@ -94,10 +94,25 @@ export function renderMenu({ menu, title }) {
   }
 
   function Item({ item }) {
+    let allergens = [];
+    if (item.isHot) allergens.push("Hot");
+    if (item.hasSesameSeeds) allergens.push("S");
+    if (item.hasMilkOrDairy) allergens.push("D");
+    if (item.hasMustard) allergens.push("M");
+    if (item.hasCurstaceans) allergens.push("C");
+    if (item.hasNuts) allergens.push("N");
+    if (item.hasSoya) allergens.push("Soy");
+    if (item.hasEggs) allergens.push("E");
+    if (item.hasSulphurDioxide) allergens.push("SO2");
+
     return (
       <li className={style.foodItem}>
         <div className={style.itemName}>
-          {item.name} <span className={style.number}>({item.num})</span>
+          {item.name}
+          {allergens.length > 0 && (
+            <span className={style.allergens}> ({allergens.join(", ")}) </span>
+          )}
+          <span className={style.number}>({item.num})</span>
         </div>
         <div className={style.prices}>
           <div className={style.price}>£{item.price}</div>
