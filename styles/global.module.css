@@ -21,6 +21,7 @@
   letter-spacing: -0.2rem;
   text-align: center;
   color: #04030f;
+  opacity: 0.8;
 }
 
 .brand {
@@ -31,6 +32,17 @@
   font-size: 2rem;
   display: block;
   color: #854d27;
+  margin-top: 0.6rem;
+}
+
+.tagLine {
+  display: block;
+  font-size: 1.2rem;
+  letter-spacing: 0;
+  font-style: italic;
+  opacity: 0.8;
+  margin-top: 0.3rem;
+  font-weight: 500;
 }
 
 .footer {
