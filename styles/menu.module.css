@@ -27,11 +27,26 @@
   font-weight: 500;
 }
 
-.price {
+.prices {
   float: right;
   margin-top: -1.5rem;
-  font-size: 1.2rem;
   font-style: italic;
+  text-align: right;
+}
+
+.price {
+  font-size: 1.2rem;
+}
+
+.smallPrice {
+  font-size: 1.1rem;
+  clear: both;
+  line-height: 1rem;
+  margin-top: 0.6rem;
+}
+
+.smallPrice small {
+  opacity: 0.6;
 }
 
 .desc {

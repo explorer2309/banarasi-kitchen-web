@@ -95,7 +95,15 @@ export function renderMenu({ menu, title }) {
     return (
       <li className={style.foodItem}>
         <div className={style.itemName}>{item.name}</div>
-        <div className={style.price}>£{item.price}</div>
+        <div className={style.prices}>
+          <div className={style.price}>£{item.price}</div>
+          {item.priceSmall && (
+            <div className={style.smallPrice}>
+              £{item.priceSmall}
+              <br /> <small>(side)</small>
+            </div>
+          )}
+        </div>
         <em className={style.desc}>{item.desc}</em>
       </li>
     );
