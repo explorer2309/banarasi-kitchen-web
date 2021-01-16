@@ -27,8 +27,13 @@
   border-bottom: #fff 1px dotted;
 }
 
-.itemName {
+.itemName,
+.drinkName {
   font-weight: 500;
+}
+
+.drinkName {
+  line-height: 2.4rem;
 }
 
 .number {
@@ -47,6 +52,11 @@
   font-size: 1.2rem;
 }
 
+.drinkPrice {
+  font-style: italic;
+  text-align: right;
+}
+
 .smallPrice {
   font-size: 1.1rem;
   clear: both;
@@ -56,6 +66,12 @@
 
 .smallPrice small {
   opacity: 0.6;
+}
+
+.alcoholPct,
+.volume {
+  font-size: 1rem;
+  opacity: 0.8;
 }
 
 .desc {

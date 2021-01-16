@@ -102,17 +102,26 @@ export function renderMenu({ menu, title }) {
     );
   }
 
+  let previousItemReference = null;
+
   function Item({ item }) {
+    const isPreviousItem = item.reference === previousItemReference;
+    previousItemReference = item.reference;
     return (
       <li className={style.drinkItem}>
-        <div className={style.itemName}>
-          {item.name} <span className={style.number}>({item.reference})</span>
+        <div className={style.drinkName}>
+          {!isPreviousItem && (
+            <>
+              {item.name}{" "}
+              <span className={style.number}>({item.reference})</span>
+            </>
+          )}
         </div>
-        <div>{item.alcoholPct}</div>
-        <div>{item.volume}</div>
-        <div className={style.prices}>
-          <div className={style.price}>£{item.price}</div>
+        <div className={style.alcoholPct}>
+          {!isPreviousItem && item.alcoholPct}
         </div>
+        <div className={style.volume}>{item.volume}</div>
+        <div className={style.drinkPrice}>£{item.price.toFixed(2)}</div>
       </li>
     );
   }
